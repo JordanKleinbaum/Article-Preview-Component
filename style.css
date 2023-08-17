@@ -7,7 +7,7 @@
   --LightGray: hsl(212, 23%, 69%);
   --BasicallyWhite: hsl(210, 46%, 95%);
   /* FONT SIZE */
-  --ParagraphFontSize: 13px;
+  --ParagraphFontSize: 0.8125rem;
 
   /* FONT FAMILY */
   --Manrope: "Manrope", sans-serif;
@@ -30,9 +30,9 @@ body {
 }
 
 main {
-  max-width: 325px;
+  max-width: 20.3125rem;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .drawers {
@@ -40,7 +40,7 @@ main {
   border-radius: inherit;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  height: 200px;
+  height: 12.5rem;
   object-fit: cover;
 }
 
@@ -51,29 +51,29 @@ main {
 }
 
 .text {
-  padding: 28px 30px 20px 32px;
+  padding: 1.75rem 1.875rem 1.25rem 2rem;
 }
 
 .title {
   color: var(--DarkestGray);
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 .desc {
   color: var(--DarkGray);
-  font-size: 13px;
-  max-width: 257px;
-  line-height: 20px;
+  font-size: 0.8125rem;
+  max-width: 16.0625rem;
+  line-height: 1.25rem;
 }
 
 .before-click {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 30px 14px 32px;
+  padding: 0.625rem 1.875rem 0.875rem 2rem;
   position: relative;
 }
 
@@ -82,18 +82,18 @@ main {
   display: none;
   align-items: center;
   background-color: var(--DarkestGray);
-  top: -50px;
-  right: -76px;
-  padding: 15px 32px 15px 32px;
-  border-radius: 10px;
-  box-shadow: 0px 3px 8px -2px rgba(0, 0, 0, 0.85);
+  top: -3.125rem;
+  right: -4.75rem;
+  padding: 0.9375rem 2rem 0.9375rem 2rem;
+  border-radius: 0.625rem;
+  box-shadow: 0rem 0.1875rem 0.5rem -0.125rem rgba(0, 0, 0, 0.85);
 }
 
 .triangle {
   position: absolute;
-  bottom: -12px;
+  bottom: -0.75rem;
   right: 50%;
-  width: 15px;
+  width: 0.9375rem;
 }
 
 .left-area {
@@ -101,15 +101,15 @@ main {
 }
 
 .profile {
-  width: 35px;
-  height: 35px;
+  width: 2.1875rem;
+  height: 2.1875rem;
   border-radius: 50%;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   cursor: pointer;
 }
 
 .profile:hover {
-  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0rem 0.1875rem 0.9375rem 0rem rgba(0, 0, 0, 0.8);
 }
 
 .social-text-section {
@@ -125,9 +125,9 @@ main {
   color: var(--LightGray);
 }
 .share-button {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
+  width: 2.1875rem;
+  height: 2.1875rem;
+  padding: 0.625rem;
   object-fit: contain;
   border-radius: 50%;
   background-color: var(--BasicallyWhite);
@@ -135,18 +135,18 @@ main {
 }
 
 .share-button:hover {
-  box-shadow: 0px 3px 18px -5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0rem 0.1875rem 1.125rem -0.3125rem rgba(0, 0, 0, 0.8);
 }
 
 /* SOCIALS AFTER CLICK */
 .after-click {
   background-color: var(--DarkestGray);
-  padding: 10px 30px 14px 32px;
+  padding: 0.625rem 1.875rem 0.875rem 2rem;
   display: none;
   justify-content: space-between;
   align-items: center;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
 }
 
 .after-click-left {
@@ -157,15 +157,15 @@ main {
 .share-text {
   text-transform: uppercase;
   color: var(--LightGray);
-  letter-spacing: 5px;
-  font-size: 14px;
-  margin-right: 10px;
+  letter-spacing: 0.3125rem;
+  font-size: 0.875rem;
+  margin-right: 0.625rem;
 }
 
 .icon-section {
   display: flex;
   align-self: center;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 .facebook,
@@ -175,9 +175,9 @@ main {
 }
 
 .second-share-button {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
+  width: 2.1875rem;
+  height: 2.1875rem;
+  padding: 0.625rem;
   object-fit: contain;
   border-radius: 50%;
   background-color: var(--DarkGray);
@@ -185,10 +185,10 @@ main {
 }
 
 /* MEDIA QUERY */
-@media (width >= 750px) {
+@media (width >= 46.875rem) {
   main {
     display: flex;
-    max-width: 665px;
+    max-width: 41.5625rem;
   }
 
   .drawers {
@@ -201,16 +201,17 @@ main {
   }
 
   .after-click {
-    border-bottom-left-radius: 0px;
-    padding: 11px 30px 14px 32px;
+    border-bottom-left-radius: 0rem;
+    padding: 0.6875rem 1.875rem 0.875rem 2rem;
   }
 
   .title {
     color: var(--DarkestGray);
-    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .desc {
-    max-width: 350px;
+    max-width: 21.875rem;
   }
 }
