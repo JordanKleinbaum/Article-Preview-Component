@@ -205,6 +205,11 @@ main {
     padding: 11px 30px 14px 32px;
   }
 
+  .title {
+    color: var(--DarkestGray);
+    font-size: 20px;
+  }
+
   .desc {
     max-width: 350px;
   }
